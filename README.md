@@ -2,6 +2,10 @@
 
 A Telegram bot that automatically translates subtitle files between different languages using AI.
 
+## 🤖 Try the Live Bot
+
+Want to try it out? Check out the live bot: [@leddisTLbot](https://t.me/leddisTLbot)
+
 ## Features
 
 - 🌍 Supports multiple subtitle formats: `.ass`, `.srt`, `.ssa`, `.sub`, `.mpl`, `.tmp`, `.vtt`
