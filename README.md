@@ -27,7 +27,7 @@ Want to try it out? Check out the live bot: [@leddisTLbot](https://t.me/leddisTL
 
 Download this repository or clone it:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/leddiss/TLbot
 cd subtitle-translator-bot
 ```
 
