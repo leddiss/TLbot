@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  autotl:
+    build: .
+    container_name: autotl
+    restart: unless-stopped
+    volumes:
+      - subtitle-data:/app/data
+    environment:
+      - OPENAI_API_KEY=your_openai_key
+      - TELEGRAM_BOT_TOKEN=your_bot_token
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  subtitle-data:
